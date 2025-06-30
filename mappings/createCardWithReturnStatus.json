@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/createCard/tessa/web/Integration/CreateCardWithReturnStatus"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "\"{{randomValue type='UUID'}}\""
+  }
+}

@@ -8,4 +8,4 @@ COPY mappings /home/wiremock/mappings
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/wiremock.jar", "--port", "8080", "--verbose", "--root-dir", "/home/wiremock"]
+CMD ["java", "-jar", "/wiremock.jar", "--port", "8080", "--global-response-templating", "--root-dir", "/home/wiremock"]

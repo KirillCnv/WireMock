@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/tessa/web/Integration/SendSignal"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\n  \"Result\": true\n}"
+  }
+}
