@@ -12,7 +12,11 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-        //ntcnb
+    testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("com.github.tomakehurst:wiremock-jre8-standalone:2.35.0")
+
+
+
 }
 
 tasks.test {
