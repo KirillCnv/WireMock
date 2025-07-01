@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "url": "/createCard/tessa/web/Integration/CreateCardWithReturnStatus"
+    "url": "/tessa/web/Integration/CreateCardWithReturnStatus"
   },
   "response": {
     "status": 200,
